@@ -18,7 +18,7 @@ p {margin: 0;}
 .construction h1 {color: #20206f; font-size: 2.2rem; font-weight: 900;}
 
 @media screen and (max-width: 576px) {
-    .container {height: auto;}
+    .container {height: auto; padding: 30px 15px;}
     .welcome {padding: 30px 0 0;}
     .welcome p {width: 100%; text-align: justify;}
     .contact {text-align: justify;}
