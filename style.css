@@ -1,4 +1,5 @@
 body {color: #262626;}
+a {color: #262626;}
 .container {
     display: flex;
     flex-direction: column;
@@ -8,4 +9,6 @@ body {color: #262626;}
     height: 100vh;
 }
 .welcome {display: flex; justify-content: center; padding: 45px 0;}
-.welcome p {font-size: 1.2rem; font-weight: 300;width: 70%; text-align: center;
+.welcome p {font-size: 1.2rem; font-weight: 300;width: 70%; text-align: center;}
+.contact span {font-weight: 600;}
+.contact::after {height: 5px; width: 5px; color: blue;}
