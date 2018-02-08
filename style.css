@@ -10,15 +10,18 @@ p {margin: 0;}
     margin: auto;
     height: 100vh;
 }
-.welcome {display: flex; justify-content: center; padding: 45px 0;}
+.welcome {display: flex; justify-content: center; padding: 45px 0 0;}
 .welcome p {font-size: 1.2rem; font-weight: 300;width: 70%; text-align: center;}
-.contact span {font-weight: 600;}
-.seperator {border: 1px solid #20206f; width: 9%; margin: 30px 0;}
+.contact {text-align: center;}
+.contact span {font-weight: 700;}
+.seperator {border: 1px solid #20206f; width: 9%; margin: 45px 0;}
 .construction h1 {color: #20206f; font-size: 2.2rem; font-weight: 900;}
 
 @media screen and (max-width: 576px) {
-    .welcome {padding: 30px 0;}
+    .container {height: auto;}
+    .welcome {padding: 30px 0 0;}
     .welcome p {width: 100%; text-align: justify;}
-    .seperator {width: 50%;}
+    .contact {text-align: justify;}
+    .seperator {width: 50%; margin: 30px}
     .construction h1 {text-align: center; font-size: 2rem;}
 }
